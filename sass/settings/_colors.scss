@@ -1,8 +1,9 @@
-$colors: ( black: #000,skyblue:lightskyblue, background: rgb(204, 11, 11), white:white,red: red, blue: blue, yellow:yellow, cyan:rgb(51, 145, 51), pink: rgb(129, 47, 105));
+$colors: ( black: #000,skyblue:lightskyblue, lightblue:lightblue, white:white,red: red, blue: blue,
+ yellow:yellow, cyan:rgb(51, 145, 51), brown: brown);
 $color-black: map_get($colors, black);
-$color-red: map-get($colors, red);
+$color-lightblue: map-get($colors, lightblue);
 $color-blue: map-get($colors, blue);
 $color-yellow: map-get($colors, yellow);
 $color-skyblue: map-get($colors, skyblue);
-$color-pink: map-get($colors, pink);
+$color-brown: map-get($colors, brown);
 $color-white:map-get($colors, white );

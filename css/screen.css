@@ -315,31 +315,35 @@ body {
   grid-template-columns: 50% 50%;
 }
 /* line 8, ../sass/objects/_content-left.scss */
-.content--left .standing .standing--teams__details {
+.content--left .standing .standing--teams {
+  display: grid;
+}
+/* line 12, ../sass/objects/_content-left.scss */
+.content--left .standing .standing--teams .standing--teams__details {
   display: grid;
   grid-template-columns: 30% 40% 30%;
 }
-/* line 13, ../sass/objects/_content-left.scss */
+/* line 18, ../sass/objects/_content-left.scss */
 .content--left .standing .standing--wc {
   display: grid;
   border-right: 1px solid;
 }
-/* line 17, ../sass/objects/_content-left.scss */
+/* line 22, ../sass/objects/_content-left.scss */
 .content--left .standing .wc-details {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 30% 30% 40%;
   margin: 10px;
 }
-/* line 22, ../sass/objects/_content-left.scss */
+/* line 27, ../sass/objects/_content-left.scss */
 .content--left .standing .wc-details .wc-headers {
   display: flex;
 }
-/* line 25, ../sass/objects/_content-left.scss */
+/* line 30, ../sass/objects/_content-left.scss */
 .content--left .standing .wc-details .wc-headers .headers--one {
   margin-right: 100px;
 }
-/* line 30, ../sass/objects/_content-left.scss */
+/* line 35, ../sass/objects/_content-left.scss */
 .content--left .standing .wc-image {
   grid-row: 1/3;
   text-align: start;
@@ -349,82 +353,108 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 43, ../sass/objects/_content-left.scss */
+/* line 48, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-/* line 47, ../sass/objects/_content-left.scss */
+/* line 52, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left {
   display: grid;
   border-right: 1px solid;
 }
-/* line 52, ../sass/objects/_content-left.scss */
+/* line 57, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide {
   display: grid;
   margin-top: 1px;
 }
-/* line 56, ../sass/objects/_content-left.scss */
+/* line 61, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide .space {
   background: teal;
 }
-/* line 59, ../sass/objects/_content-left.scss */
+/* line 64, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide .adds {
   text-align: center;
   background: lightskyblue;
 }
-/* line 65, ../sass/objects/_content-left.scss */
+/* line 70, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .images-details {
   display: grid;
 }
-/* line 68, ../sass/objects/_content-left.scss */
+/* line 73, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .images-details .image-one {
   display: grid;
   grid-template-rows: 40% 30% 30%;
 }
-/* line 74, ../sass/objects/_content-left.scss */
+/* line 79, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .adds {
   text-align: center;
   background: lightskyblue;
 }
-/* line 81, ../sass/objects/_content-left.scss */
+/* line 86, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right {
-  background: brown;
   display: grid;
 }
-/* line 84, ../sass/objects/_content-left.scss */
+/* line 89, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .grand-prix {
   display: grid;
+  grid-template-rows: 50% 50%;
   background: whitesmoke;
   padding: 10px;
 }
-/* line 89, ../sass/objects/_content-left.scss */
+/* line 95, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .grand-prix .next {
+  display: grid;
+  grid-template-rows: 50% 50%;
   background: burlywood;
 }
-/* line 92, ../sass/objects/_content-left.scss */
-.content--left .content--left__subdivide .subdivide--right .grand-prix .previous {
+/* line 100, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .next .top {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+/* line 104, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .next .next-bottom {
+  display: grid;
+  grid-template-columns: 25% 35% 40%;
+}
+/* line 109, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .clear {
+  background: white;
+}
+/* line 112, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .clear .previous {
   border-bottom: 1px solid;
 }
-/* line 96, ../sass/objects/_content-left.scss */
+/* line 118, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .quotes-details {
   display: grid;
 }
-/* line 99, ../sass/objects/_content-left.scss */
+/* line 121, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .quotes-details .adds {
   padding: 15px;
-  background: darkslateblue;
+  text-align: center;
+  background: lightskyblue;
 }
-/* line 103, ../sass/objects/_content-left.scss */
+/* line 126, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .quotes-details .quotes {
   padding: 25px;
-  background: rebeccapurple;
+  background: brown;
 }
-/* line 108, ../sass/objects/_content-left.scss */
+/* line 131, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right .twitter-details {
   display: grid;
   background: lightblue;
+  grid-template-rows: 25% 25% 25% 25;
   padding: 20px;
+}
+/* line 137, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .twitter-details .twitter-one--top {
+  display: flex;
+}
+/* line 139, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .twitter-details .twitter-one--top .spaces {
+  margin-right: 90px;
 }
 
 /* line 1, ../sass/objects/_footer.scss */

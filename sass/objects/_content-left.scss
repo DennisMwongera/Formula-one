@@ -5,10 +5,15 @@
         display: grid;
         grid-template-columns: 50% 50%;
 
+        .standing--teams{
+            display: grid;
+
+        
     .standing--teams__details{
         display: grid;
         grid-template-columns: 30% 40% 30%; 
     }
+}
 
         .standing--wc{
             display: grid;
@@ -79,37 +84,65 @@
         
         }
         .subdivide--right{
-            background: brown;
             display: grid;
+
             .grand-prix{
                 display: grid;
+                grid-template-rows: 50% 50%;
                 background: whitesmoke;
                 padding: 10px;
 
                 .next{
+                    display: grid;
+                    grid-template-rows: 50% 50%;
                     background: burlywood;
+
+                    .top{
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                    }
+                    .next-bottom{
+                        display: grid;
+                        grid-template-columns: 25% 35% 40%;
+                    }
                 }
+                .clear{
+                    background: white;
+                
                 .previous{
                     border-bottom: 1px solid;
                 }
+            }
+            
             }
             .quotes-details{
                 display: grid;
 
                 .adds{
                     padding: 15px;
-                    background: darkslateblue;
+                    text-align: center;
+                    background: $color-skyblue;
                 }
                 .quotes{
                     padding: 25px;
-                    background: rebeccapurple;
+                    background: $color-brown;
                 }
             }
             .twitter-details{
                 display: grid;
-                background: lightblue;
+                background: $color-lightblue;
+                grid-template-rows:25% 25% 25% 25; 
                 padding: 20px;
+
+                .twitter-one--top{
+                    display: flex;
+                   .spaces{
+                       margin-right: 90px;
+                   }
+               
             }
+            }
+            
         }
     }
 }
