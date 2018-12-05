@@ -5,6 +5,11 @@
         display: grid;
         grid-template-columns: 50% 50%;
 
+    .standing--teams__details{
+        display: grid;
+        grid-template-columns: 30% 40% 30%; 
+    }
+
         .standing--wc{
             display: grid;
             border-right: 1px solid;
@@ -41,12 +46,12 @@
         
         .subdivide--left{
             display: grid;
-            background: burlywood;
+           
             border-right: 1px solid; 
 
             .subdivide{
                 display: grid;
-                background: wheat;
+                
                 margin-top: 1px;
                 .space{
                     background:teal;
@@ -59,7 +64,16 @@
             }
             .images-details{
                  display: grid;
-                 background: gold;  
+                   
+                 .image-one{
+                    display: grid;
+                    grid-template-rows: 40% 30% 30%;
+                 }
+                 
+            }
+            .adds{
+                text-align: center;
+                background: $color-skyblue;
             }
             
         
