@@ -3,50 +3,40 @@
 
     .belgium{
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-auto-rows: 170px;
-        border-bottom: 1px solid;
-        border-left: 1px solid;
+        grid-template-columns: auto auto;
+        grid-auto-rows: $grid-auto-rows;
+        @include border-line-bottom;
+       
 
         .belgium--rating{
        
-        margin: 10px;
-        text-align: start;
-        border-right: 1px solid;
+        margin: $all-round-margin;
+        
+        @include border-line-right;
         background-image: url('../../images/one.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        
         }
         .belgium--engine{
-            margin: 10px;
-            text-align: start;
-            border-right: 1px solid;
+            @include border-line-right;
             background-image: url('../../images/one.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            
         }
     }
     .opinion{
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-auto-rows: 180px;
-        border-left: 1px solid;
+        grid-auto-rows: $grid-auto-rows;
+        @include border-line-left;
         .opinion--one{
-            margin: 10px;
-            text-align: start;
-            border-right: 1px solid;
+            @include border-line-right;
             background-image: url('../../images/three.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+           
         }
        
     }
 
     .news{
-        height: 80px;
+        height:$height;
         background: $color-skyblue;
         text-align: center;
     }
@@ -67,36 +57,29 @@
     }
     .column-photo{
         display: grid;
-        grid-auto-rows: 350px;
+        grid-auto-rows: $grid-auto-rows*2;
         border-left: 1px solid;
 
         .column-photo--image{
             text-align: justify;
-            margin: 10px;
-            text-align: start;
-            border-right: 1px solid;
+            @include border-line-right;
             background-image: url('../../images/two.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+          
         }
     }
     .video-gallery{
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-auto-rows: 200px;
-        border-bottom: 3px solid;
-        border-left: 1px solid;
+        grid-auto-rows: $grid-auto-rows + 40px;
+       @include border-line-bottom;
+        @include border-line-left;
         border-right: 1px solid;
         .video-gallery--one{
             text-align: justify;
             margin: 10px;
-            text-align: start;
-            border-right: 1px solid;
+           @include border-line-right;
             background-image: url('../../images/two.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+           
         }
     }
     

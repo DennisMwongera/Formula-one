@@ -1,4 +1,4 @@
-$colors: ( black: #000,skyblue:lightskyblue, lightblue:lightblue, white:white,red: red, blue: blue,
+$colors: ( orange:orange,black: #000,skyblue:lightskyblue, lightblue:lightblue, white:white,red: red, blue: blue,
  yellow:yellow, cyan:rgb(51, 145, 51), brown: brown);
 $color-black: map_get($colors, black);
 $color-lightblue: map-get($colors, lightblue);
@@ -7,3 +7,4 @@ $color-yellow: map-get($colors, yellow);
 $color-skyblue: map-get($colors, skyblue);
 $color-brown: map-get($colors, brown);
 $color-white:map-get($colors, white );
+$color-orange:map-get($colors, orange )

@@ -1,0 +1,19 @@
+@mixin border-line-bottom {
+    border-bottom: 1px solid;
+}
+@mixin border-line-right{
+    border-right: 1px solid;
+    text-align: start; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin border-line-left {
+    border-left: 1px solid;  
+}
+@mixin hover-active {
+    &:hover {
+      border-bottom: 3px solid $color-black;
+      color:$color-orange; 
+    }
+}

@@ -9,18 +9,19 @@
         grid-row: 1/3;
         // background: cadetblue;
         justify-self: start;
-       
-        background: url("http://3.bp.blogspot.com/_EqZzf-l7OCg/TNmdtcyGBZI/AAAAAAAAAD8/KD5Y23c24go/s1600/homer-simpson-1280x1024.jpg") no-repeat;
-        width: 100px;
-        height: 100px;
+        background: url("../../images/fb.png") no-repeat;
+        width: $logo-width;
+        height: $logo-height;
         background-size:contain;
     }
     .header--links{ 
+        
         display: flex;
         justify-content: space-around;
-        border-bottom: 1px solid;
+       @include border-line-bottom;
        
         .--link{
+            
             text-transform: uppercase;
             color: $color-black;
            
@@ -28,16 +29,22 @@
                 margin-right: $base-grid;
                 
             }
+            @include hover-active;
         }
        
     }
     .header--signs{
         justify-self: end;
+         
+        .signs--login{
+            margin: $body-margin;
+        }
     }
     .header--flag{
         grid-column: 1/3;
-        padding: $base-grid 0; 
+        padding: $base-grid 2; 
         display: flex;
         justify-content: space-around;
     }
 }
+
