@@ -1,0 +1,101 @@
+.header__content{
+    padding: $base-grid $base-grid $base-grid;
+    display: grid;
+    grid-template-columns: 70% auto;
+    //height: 70vh;
+    border: $border;
+    border-top: 3px solid !important;
+    margin: $base-grid 60px $base-grid 60px;
+}
+.header__image{
+    background-image: url("../images/header.jpg");
+    @include overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-right: $border;
+    h3{
+        padding: $base-grid/2;
+        font-size: $text-fsz-regular;
+        color: $color-white;
+    }
+    h2{
+        padding: $base-grid/2;
+        margin-top: $base-grid * 8;
+        font-size: $text-fsz-medium;
+        color: $color-white;
+        
+    }
+    p{
+        padding: $base-grid/2;
+        font-size: $text-fsz-regular;
+        color: $color-white;
+    }
+
+}
+.header__stories{
+    text-align: left;
+    margin-left: $base-grid/2.5;
+}
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.header__videos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: $base-grid * 2;
+    padding: $base-grid $base-grid $base-grid;
+    border: $border;
+    margin: 0 0 0 $base-grid * 2.5;
+    height: 30vh;
+    border-top: $color-white;
+}
+
+.header-video--one{
+    background-image: url("../images/video.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    //height: 30vh;
+    p{
+        color: $color-white;
+        padding-top: $base-grid * 6;
+        font-size: $text-fsz-regular;
+        font-weight: $text-font-weight-heavy;
+        text-align: center;
+    }
+}
+//  .table--content{
+//      width: 50%;
+//    display: grid;
+//    grid-template-columns: repeat(2,1fr);
+//    grid-gap: 0;
+// }
+ .wc__table--standing{
+    .wc__header{
+        text-align: left;
+        padding: $base-grid/4;
+    }
+    .wc__image{
+        background-image: url("../images/kenya.svg" );
+        background-repeat: no-repeat;
+        padding: $base-grid/4;
+    }
+    .wc__list{
+        padding: $base-grid/3;
+        width: 50%;
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
+        grid-gap: $base-grid/6; 
+        h3{
+            color: $color-rose;
+        }
+        h2{
+           color: $color-blue;
+           opacity: 2; 
+        }
+    }
+
+    
+ }

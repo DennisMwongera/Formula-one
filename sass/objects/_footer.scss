@@ -1,0 +1,9 @@
+.footer__block{
+    padding: $base-grid/4 $base-grid * 2.5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.formula-1__links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

@@ -1,0 +1,11 @@
+ $colors: ( orange: #ED672D, rose: #4A1F22, nova: #F7B334,
+        grey: #b9aeab, blue: #bdccd4, bluish: #88c9f9, white: #fff, black: #000);
+       $color-white: map_get($colors, white);
+       $color-orange: map-get($colors, orange);
+       $color-rose: map-get($colors, rose);
+       $color-yellow: map_get($colors, nova);
+       $color-blue: map_get($colors, blue);
+       $color-bluish: map_get($colors, bluish);
+       $color-grey: map-get($colors, grey);
+       $color-black: map-get($colors, black);
+                        

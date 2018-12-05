@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: $font-pack;
+}
+h1{
+    font-size: $text-fsz-large;
+}
+h2{
+    font-size: $text-fsz-medium;
+}
+h3{
+    font-size: $text-fsz-regular;
+}
+h4{
+    font-size: $text-fsz-regular;
+}
+p{
+    font-size: $text-fsz-regular;
+}
+ul{
+    font-size: $text-fsz-regular;
+    color: black;
+    font-family: Helvetica, sans-serif, Univers;
+}
+li{
+    font-family: Helvetica, sans-serif, Univers;
+}
+body{
+    background: $color-white;
+    border: $border;
+    
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: Helvetica, sans-serif, Univers;
+}

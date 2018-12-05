@@ -1,0 +1,60 @@
+.site-logo{
+    padding: $base-grid;
+    color: red;
+}
+.header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    nav{
+        text-decoration: none;
+        color: $color-rose;
+    }
+}
+
+.nav__list{
+    list-style: none;
+    color: $color-rose;
+    display: inline-flex;
+    float: right;
+    a{
+        text-decoration: none;
+    }
+    .--signup{
+        float: right;
+        font-weight: $text-font-weight-heavy;
+
+    }
+}
+.nav__list-item{
+    font-size: $text-fsz-regular;
+    color: $color-grey;
+    text-decoration: none;
+    padding: $base-grid;
+    .--active{
+        color: $color-orange; 
+    }
+    &:not(:last-child){
+        margin-right: $base-grid;
+     }
+     hr{
+         width: 70%;
+         line-height: 10%;
+     }
+}
+.nav__list-item--signup{
+    font-size: $text-fsz-regular;
+    a{
+        float: right;
+    }
+}
+
+.team__section{
+    padding: 0 $base-grid * 3 0;
+    
+}
+.team__section--list{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 5px;
+}
